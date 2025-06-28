@@ -22,6 +22,9 @@
       grid-template-columns: repeat(3, min-content max-content);
       // margin-top: -1rem;
     }
+    @media only screen and (max-width: $bp-smallest) {
+      grid-template-columns: min-content max-content;
+    }
   }
 
   &__img {
